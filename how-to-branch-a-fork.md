@@ -1,11 +1,11 @@
-git working with forked repo - using custom branch
+# git working with forked repo - using custom branch
 
-#create branch from cloned master of repo
+### create branch from cloned master of repo
 git checkout -b learning1
-#output
+#### output
 Switched to a new branch 'learning1'
 
-#push new branch creation - will then appear in web ui
+### push new branch creation - will then appear in web ui
 git push origin learning1
 Total 0 (delta 0), reused 0 (delta 0)
 remote: 
@@ -15,7 +15,7 @@ remote:
 To github.com:scottpeterman/foundations-of-pygtk-development.git
  * [new branch]      learning1 -> learning1
 
-#first push requires setting upstream reference
+### first push requires setting upstream reference
 git push --set-upstream origin learning1
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
@@ -28,13 +28,13 @@ To github.com:scottpeterman/foundations-of-pygtk-development.git
    5eabe85..ddebfc0  learning1 -> learning1
 Branch 'learning1' set up to track remote branch 'learning1' from 'origin'.
 
-#verify active branch in local repo
+### verify active branch in local repo
 git branch
 * learning1
   master
 
 
-#Now Regular workflow works
+### Now Regular workflow works
 git add -A
 git commit -m "my message"
 git push
