@@ -3,7 +3,9 @@
 ### create branch from cloned master of repo
 ```git checkout -b learning1```
 #### output
-``Switched to a new branch 'learning1'```
+```
+Switched to a new branch 'learning1'
+```
 
 ### push new branch creation - will then appear in web ui
 ```
